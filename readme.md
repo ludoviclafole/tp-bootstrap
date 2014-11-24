@@ -22,6 +22,7 @@ Le but étant de vous pousser à lire la documentation bootstrap et à chercher 
 *A faire sur toutes les pages.*
 
 Téléchargez les sources : [Télécharger](https://github.com/NoobLad/tp-bootstrap/archive/master.zip)
+
 Prenez le temps de regarder la documentation sur bootstrap : [Navbar](http://getbootstrap.com/components/#navbar)
 
 Une version un peu simplifiée de l'exemple bootstrap :
