@@ -67,7 +67,7 @@ Ici un peu comme dans le positionnement du TP précédent, vous allez essentiell
 * .row
 * .col-xs-n .col-sm-n .col-md-n et .col-lg-n où "n" est un nombre entre 1 et 12.
 
-Vous pouvez lite la documentation bootstrap ici : [Grille](http://getbootstrap.com/css/#grid)
+Vous pouvez lire la documentation bootstrap ici : [Grille](http://getbootstrap.com/css/#grid)
 
 Résultat attendu mobile et tablette (attention le menu n'est pas le même en version tablette):
 <img src="screenshots/index-xs-sm.png" style="max-width:400px">
