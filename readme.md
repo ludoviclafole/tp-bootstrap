@@ -3,6 +3,7 @@ TP 2 Bootstrap
 
 Le principe du tp ici est d'approfondir la découverte de bostrap. Ainsi de commencer à être à votre aise avec l'outils.
 Nous allons voir les points suivants :
+
 1. Mise en place d'une navbar boostrap simple permettant d'avoir un menu "sandwich" Automatiquement
 2. Jouer un avec le positionnement
 3. Utiliser les tableaux bootstrap
@@ -67,7 +68,7 @@ Ici un peu comme dans le positionnement du TP précédent, vous allez essentiell
 Vous pouvez lite la documentation bootstrap ici : [Grille](http://getbootstrap.com/css/#grid)
 
 Résultat attendu mobile et tablette (attention le menu n'est pas le même en version tablette):
-<img src="screenschots/index-xs-sm.png" style="max-width:400px">
+<img src="screenshots/index-xs-sm.png" style="max-width:400px">
 
 Sur Ordinateur et grande tablette :
 <img src="screenshots/index-md-lg.png" style="max-width:400px">
