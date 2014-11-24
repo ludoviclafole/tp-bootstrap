@@ -1,7 +1,7 @@
 TP 2 Bootstrap
 ==============
 
-Le principe du tp ici est d'approfondir la découverte de bostrap. Ainsi de commencer à être à votre aise avec l'outils.
+Le principe du tp ici est d'approfondir la découverte de bostrap. Ainsi de commencer à être à votre aise avec l'outil.
 Nous allons voir les points suivants :
 
 1. Mise en place d'une navbar boostrap simple permettant d'avoir un menu "sandwich" Automatiquement
@@ -12,18 +12,18 @@ Nous allons voir les points suivants :
 6. Intégrer un template bootstrap simple
 7. Bonus : tester un slider avec thumbnail
 
-Lors de ce TP vous n'écrirez pas une ligne de CSS lors des étape simple. Tous le CSS est déjà écrit. (Il y a 3 lignes pour la galerie)
+Lors de ce TP vous n'écrirez pas une ligne de CSS. Tous le CSS est déjà écrit. (Il y a 3 lignes pour la galerie)
 (Pour la partie bonus, il y a quelques lignes en plus)
 Le but étant de vous pousser à lire la documentation bootstrap et à chercher un peu tout ce que l'on peut faire avec.
 
-> Attention : Toute la partie bootstrap JQuery est intégrer par CDN si vous voulez les utiliser sans internet il vous faudra d'abord les télécharger. Et biensur changer le code correspondant.
+> Attention : Toute la partie bootstrap/JQuery est intégrée par CDN si vous voulez les utiliser sans internet il vous faudra d'abord les télécharger. Et biensur changer le code correspondant.
 
 # 1. La navbar
 *A faire sur toutes les pages.*
 
-Prennez le temps de regarder la documentation sur bootstrap : [Navbar](http://getbootstrap.com/components/#navbar)
+Prenez le temps de regarder la documentation sur bootstrap : [Navbar](http://getbootstrap.com/components/#navbar)
 
-Une version un peu simplifié de l'exemple bootstrap :
+Une version un peu simplifiée de l'exemple bootstrap :
 ```html
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
@@ -63,17 +63,17 @@ Sur mobile :
 *A faire sur l'index*
 Ici un peu comme dans le positionnement du TP précédent, vous allez essentiellement utiliser les classes :
 * .row
-* .col-xs-n .col-sm-n .col-md-n et .col-lg-n où n est un nombre entre 1 et 12.
+* .col-xs-n .col-sm-n .col-md-n et .col-lg-n où "n" est un nombre entre 1 et 12.
 
 Vous pouvez lite la documentation bootstrap ici : [Grille](http://getbootstrap.com/css/#grid)
 
 Résultat attendu mobile et tablette (attention le menu n'est pas le même en version tablette):
 <img src="screenshots/index-xs-sm.png" style="max-width:400px">
 
-Sur Ordinateur et grande tablette :
+Sur bureau et grande tablette :
 <img src="screenshots/index-md-lg.png" style="max-width:400px">
 
-Pour le footer essayer de trouver la solution en fouinant un peu sur le site de bootstrap.
+Pour le footer essayez de trouver la solution en fouinant un peu sur le site de bootstrap.
 *A faire sur toutes les pages*
 
 >Pour rappel : Toute la page est faisable sans le moindre CSS écrit de votre part.
@@ -96,7 +96,7 @@ On ne le voit pas sur la capture mais la couleur des lignes change au survol.
 
 Bootstrap fournis un slider : [Slider/Carousel](http://getbootstrap.com/javascript/#carousel)
 
-A vous de mettre en place un slider à partir des images fournis. Comme précédement pas grande différence entre les différentes versions.
+A vous de mettre en place un slider à partir des images fournies. Comme précédemment pas grande différence entre les différentes versions.
 
 Résultat attendu :
 <img src="screenshots/gallery.png" style="max-width:400px">
@@ -116,13 +116,13 @@ Pour tablette et plus :
 *A faire sur toutes les pages*
 
 Le net est rempli d'une quantité hallucinante de tempalte pour bootstrap. Cela permet d'avoir assez vite des choses qui présente bien.
-Aprés à vous de commencer à personnaliser, au fil du temps les choses de façon à coller d'avantage à l'identité du site.
+Aprés à vous de commencer à personnaliser, au fil du temps les choses de façon à coller davantage à l'identité du site.
 Dans le cas d'une admin un bootstrap nu ou avec un template est une solution parfaite.
 
-Un coin avec pas mal de theme simple (majoritairement des changement de couleur) : [bootswatch](http://bootswatch.com/)
+Un coin avec pas mal de theme simple (majoritairement des changements de couleur) : [bootswatch](http://bootswatch.com/)
 Pour les versions prêtes à l'utilisation : [CDN bootswatch](http://bootstrapcdn.com/#bootswatch_tab)
 
-Copier le liens du thème que vous voulez tester placer le dans vos page et c'est parti !
+Copiez le lien du thème que vous voulez tester, placez le dans vos pages et c'est parti !
 
 Voilà vous venez de finir la partie découverte de Bootstrap.
 
@@ -134,7 +134,7 @@ S'il vous reste du temps voici la partie bonus :
 *A faire sur la gallerie*
 
 Comme vous l'avez sûrement vu dans la CSS fournis avec l'exercice, il y a des choses liées au slider.
-Ajoutez la classe carousel-thumbnail à votre slider et placez les thumbnail fournis dans le dossiers images dans votre listes carousel-indicators et c'est parti un petit slider avec aperçu.
+Ajoutez la classe carousel-thumbnail à votre slider et placez les thumbnails fournis dans le dossier images dans votre listes carousel-indicators et c'est parti un petit slider avec aperçu.
 Bon le code est pas nikel mais cela donne une impression de ce que l'on peut faire avec bootstrap.
 
 Ce que cela devrait donner :
@@ -142,4 +142,4 @@ screenshots/gallery-extra.png
 
 # 8. A vous de jouer !
 
-S'il vous reste encore du temps regardez ce qu'il y a sur bootstrap et tentez de modifier votre code.
+S'il vous reste encore du temps, regardez ce qu'il y a sur bootstrap et tentez de modifier votre code.
