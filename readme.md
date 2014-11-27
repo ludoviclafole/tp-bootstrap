@@ -1,10 +1,10 @@
 TP 2 Bootstrap
 ==============
 
-Le principe du tp ici est d'approfondir la découverte de bostrap. Ainsi de commencer à être à votre aise avec l'outil.
+Le principe du tp ici est d'approfondir la découverte de bootstrap. Ainsi de commencer à être à votre aise avec l'outil.
 Nous allons voir les points suivants :
 
-1. Mise en place d'une navbar boostrap simple permettant d'avoir un menu "sandwich" Automatiquement
+1. Mise en place d'une navbar bootstrap simple permettant d'avoir un menu "sandwich" Automatiquement
 2. Jouer avec le positionnement
 3. Utiliser les tableaux bootstrap
 4. Faire un slider avec bootstrap
