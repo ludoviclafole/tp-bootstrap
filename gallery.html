@@ -7,71 +7,99 @@
     <link type="text/css" rel="stylesheet" href="styles/gallery.css">
     <title>NoobStrap</title>
 </head>
-<body>
-<header>
-    <nav>
-        <h1>NoobStrap</h1>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="products.html">Produits</a></li>
-            <li><a href="gallery.html">Galerie</a></li>
-            <li><a href="contact.html">Nous contacter</a></li>
-        </ul>
+<body class="container">
+<header class="row">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">NoobStrap</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html"><i class="fa fa-home"></i> Accueil</a></li>
+                <li><a href="products.html"><i class="fa fa-shopping-cart"></i> Produits</a></li>
+                <li class="active"><a href="gallery.html"><i class="fa fa-photo"></i> Galerie</a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope"></i> Nous contacter</a></li>
+            </ul>
+        </div>
     </nav>
 </header>
-<main>
+<main class="row">
     <h1>Galerie</h1>
 
-    <section>
-        <article>
-            <img src="images/gateau1.jpg">
+    <section id="slider" class="carousel slide carousel-thumbnail" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <article class="item active">
+                <img src="images/gateau1.jpg">
 
-            <div>
-                Un beau g&acirc;teau
-            </div>
-        </article>
-        <article>
-            <img src="images/gateau2.jpg">
+                <p class="carousel-caption">
+                    Un beau g&acirc;teau
+                </p>
+            </article>
+            <article class="item">
+                <img src="images/gateau2.jpg">
 
-            <div>
-                Un autre beau g&acirc;teau
-            </div>
-        </article>
-        <article>
-            <img src="images/gateau3.jpg">
+                <p class="carousel-caption">
+                    Un autre beau g&acirc;teau
+                </p>
+            </article>
+            <article class="item">
+                <img src="images/gateau3.jpg">
 
-            <div>
-                Un magnifique g&acirc;teau
-            </div>
-        </article>
-        <article>
-            <img src="images/gateau4.jpg">
+                <p class="carousel-caption">
+                    Un magnifique g&acirc;teau
+                </p>
+            </article>
+            <article class="item">
+                <img src="images/gateau4.jpg">
 
-            <div>
-                Un d&eacute;licieux g&acirc;teau
-            </div>
-        </article>
-        <article>
-            <img src="images/gateau5.jpg">
+                <p class="carousel-caption">
+                    Un d&eacute;licieux g&acirc;teau
+                </p>
+            </article>
+            <article class="item">
+                <img src="images/gateau5.jpg">
 
-            <div>
-                Un somptueux g&acirc;teau
-            </div>
-        </article>
-        <article>
-            <img src="images/gateau6.jpg">
+                <p class="carousel-caption">
+                    Un somptueux g&acirc;teau
+                </p>
+            </article>
+            <article class="item">
+                <img src="images/gateau6.jpg">
 
-            <p>
-                Un extraordinaire g&acirc;teau
-            </p>
-        </article>
+                <p class="carousel-caption">
+                    Un extraordinaire g&acirc;teau
+                </p>
+            </article>
+        </div>
+        <a class="left carousel-control" href="#slider" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Pr&eacute;c&eacute;dent</span>
+        </a>
+        <a class="right carousel-control" href="#slider" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Suivant</span>
+        </a>
+        <ol class="carousel-indicators">
+            <li data-target="#slider" data-slide-to="0" class="active"><img src="images/thumb_gateau1.jpg"></li>
+            <li data-target="#slider" data-slide-to="1"><img src="images/thumb_gateau2.jpg"></li>
+            <li data-target="#slider" data-slide-to="2"><img src="images/thumb_gateau3.jpg"></li>
+            <li data-target="#slider" data-slide-to="3"><img src="images/thumb_gateau4.jpg"></li>
+            <li data-target="#slider" data-slide-to="4"><img src="images/thumb_gateau5.jpg"></li>
+            <li data-target="#slider" data-slide-to="5"><img src="images/thumb_gateau6.jpg"></li>
+        </ol>
     </section>
 </main>
-<footer>
-    <nav>
+<footer class="row well">
+    <nav class="col-xs-6">
         <a href="#">Nous contacter</a> | <a href="#">Twitter</a>
     </nav>
-    <span>Copyright &copy; NoobStrap 2014-2015</span>
+    <span class="col-xs-6 pull-right text-right">Copyright &copy; NoobStrap 2014-2015</span>
 </footer>
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>

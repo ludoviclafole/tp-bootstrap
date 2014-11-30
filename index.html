@@ -6,67 +6,78 @@
     <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <title>NoobStrap</title>
 </head>
-<body>
-<header>
-    <nav>
-        <h1>NoobStrap</h1>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="products.html">Produits</a></li>
-            <li><a href="gallery.html">Galerie</a></li>
-            <li><a href="contact.html">Nous contacter</a></li>
-        </ul>
+<body class="container">
+<header class="row">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">NoobStrap</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html"><i class="fa fa-home"></i> Accueil</a></li>
+                <li><a href="products.html"><i class="fa fa-shopping-cart"></i> Produits</a></li>
+                <li><a href="gallery.html"><i class="fa fa-photo"></i> Galerie</a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope"></i> Nous contacter</a></li>
+            </ul>
+        </div>
     </nav>
 </header>
-<main>
-    <section>
+<main class="row">
+    <section class="col-xs-12 col-md-8">
         <article>
-            <h1>Strap Community V1 released</h1>
+            <h1>Community version out</h1>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident numquam aperiam ut quaerat minus labore quo nesciunt aspernatur voluptas consequuntur dolores eaque culpa natus officia laudantium. Vero et nisi modi iure veritatis dolores a doloribus recusandae itaque facere fugiat mollitia numquam minima illum aspernatur tenetur illo nihil animi optio sunt.</p>
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident numquam aperiam ut quaerat minus labore quo nesciunt aspernatur voluptas consequuntur dolores eaque culpa natus officia laudantium. Vero et nisi modi iure veritatis dolores a doloribus recusandae itaque facere fugiat mollitia numquam minima illum aspernatur tenetur illo nihil animi optio sunt.</p>
         </article>
         <article>
             <h1>Strap Pro Dicsount</h1>
 
-            <h2>It's now ! Go for it !</h2>
-
+            <h2>
+                <small>It's now ! Go for it !</small>
+            </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic soluta veritatis reprehenderit obcaecati doloribus nemo architecto eos deserunt ratione dicta esse provident voluptatem quam dolorem animi qui minus veniam aperiam consequatur recusandae reiciendis ipsum accusantium ipsam aut nam magnam voluptas suscipit at ipsa facilis quod dolor necessitatibus possimus ut praesentium sunt incidunt sequi cupiditate pariatur iure! Deserunt quia commodi ut harum id perferendis dolorem ex illum! Odit repellat voluptatibus suscipit magni facere quae fugit quo tempore nemo eveniet consequatur voluptatum distinctio repellendus veritatis quasi repudiandae deleniti qui officiis pariatur totam quaerat soluta mollitia nesciunt quam nobis numquam facilis sed laborum.</p>
         </article>
     </section>
-    <section>
-        <h1>Flux Twitter</h1>
+    <section class="col-xs-12 col-md-4">
+        <h1><i class="fa fa-twitter"></i> Flux Twitter</h1>
         <article>
-            <strong>Toto</strong>
+            <strong class="col-xs-2">Toto</strong>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum impedit.</p>
+            <p class="col-xs-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum impedit.</p>
         </article>
         <article>
-            <strong>Robert</strong>
+            <strong class="col-xs-2">Robert</strong>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum impedit.</p>
+            <p class="col-xs-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum impedit.</p>
         </article>
         <article>
-            <strong>Marine</strong>
+            <strong class="col-xs-2">Marine</strong>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum impedit.</p>
+            <p class="col-xs-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum impedit.</p>
         </article>
         <article>
-            <strong>Alfred</strong>
+            <strong class="col-xs-2">Alfred</strong>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum impedit.</p>
+            <p class="col-xs-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum impedit.</p>
         </article>
         <article>
-            <strong>Julia</strong>
+            <strong class="col-xs-2">Julia</strong>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum impedit.</p>
+            <p class="col-xs-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum impedit.</p>
         </article>
     </section>
 </main>
-<footer>
-    <nav>
+<footer class="row well">
+    <nav class="col-xs-6">
         <a href="#">Nous contacter</a> | <a href="#">Twitter</a>
     </nav>
-    <span>Copyright &copy; NoobStrap 2014-2015</span>
+    <span class="col-xs-6 pull-right text-right">Copyright &copy; NoobStrap 2014-2015</span>
 </footer>
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
